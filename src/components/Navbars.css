@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+/*TOPNAV*/
+.topnav{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    margin-top: 8px;
+    font-size: 14px;
+    font-family:Georgia;
+}
+.column{
+    border-right: 2px solid rgb(218, 218, 218);
+    border-radius: 0px;
+    margin-bottom: 8px;
+    height: 28px;
+}
+.dropEN{
+    background: none;
+    color: rgb(88, 88, 88);
+    border: none;
+    outline: none;
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dropEN:hover,  .dropUSD:hover{
+    background: none !important;
+    color: rgb(88, 88, 88) !important;
+}
+
+.dropUSD{
+    background: none;
+    color: rgb(88, 88, 88);
+    border: none;
+    outline: none;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cart{
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cart:hover{
+    opacity: 0.5;
+}
+svg{
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+/*NAVBAR*/
+.navs{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.logo{
+    max-width: 200px;
+    height: auto;
+    width:100%;
+}
+.form{
+    margin-top: 15px;
+    border-radius: 0px;
+}
+.search-form{
+    border-radius:50px;
+}
+.search-form:active{
+    border: none;
+    outline: none;
+}
+.mycart{
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+.mycart:hover{
+    opacity: 0.5;
+}
+
+/*MENU*/
+.menu{
+    background-color: rgb(54, 0, 92);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+   opacity: 0.5 !important;
+}
+.nav-link:visited{  
+    color:white;    
+}
+.header{
+   text-align: center;
+   margin-left: 25px;
+}
