@@ -1,0 +1,28 @@
+/*DATA*/
+.headings{
+    text-align: center;
+}
+.table-content{
+    text-align: center;
+    text-transform: capitalize;
+}
+th{
+    color:indigo;
+    font-size: 18px;
+    cursor: pointer;
+}
+td{
+    cursor: pointer;
+}
+
+/*DATA HEADING*/
+.data-heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight:600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: indigo underline;
+    border-bottom:2px solid rgb(218, 218, 218);
+}
