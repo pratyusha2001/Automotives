@@ -1,0 +1,30 @@
+.footer
+{
+    background: indigo;
+    color: white;
+    padding-bottom: 4%;
+    margin-top: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-container{
+    padding-top: 5%;
+    font-size: 25px;
+}
+.footer-container h6{
+    margin-top: 2%;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+svg{
+    margin-left: 15px;
+    cursor: pointer;
+}
+svg:hover{
+    opacity: 0.5;
+}
+.contact{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -3%;
+    margin-top: -3%;
+}
